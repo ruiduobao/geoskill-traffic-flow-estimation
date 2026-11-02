@@ -1,9 +1,9 @@
 {
   "skill": "traffic-flow-estimation",
   "skill_version": "1.0.0",
-  "command": "traffic-flow-estimation --bbox 116 39 117 40 --synthetic --output-dir Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\traffic-flow-estimation\\_test_cli_synth --quiet",
-  "started_at": "2026-08-03T17:40:20.606608Z",
-  "finished_at": "2026-08-03T17:40:20.880589Z",
+  "command": "traffic-flow-estimation --bbox 116 39 117 40 --synthetic --output-dir /tmp/batch2/geoskill-traffic-flow-estimation/_test_cli_synth --quiet",
+  "started_at": "2026-11-02T15:53:17.303827Z",
+  "finished_at": "2026-11-02T15:53:17.790831Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -15,7 +15,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\traffic-flow-estimation\\_test_cli_synth\\traffic_flow.tif",
+      "path": "/tmp/batch2/geoskill-traffic-flow-estimation/_test_cli_synth/traffic_flow.tif",
       "kind": "raster",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -32,7 +32,7 @@
       "row_count": null
     },
     {
-      "path": "Z:\\Mywork\\自媒体\\公众号\\我的产品推文\\第二批skill\\traffic-flow-estimation\\_test_cli_synth\\traffic_stats.json",
+      "path": "/tmp/batch2/geoskill-traffic-flow-estimation/_test_cli_synth/traffic_stats.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -62,7 +62,7 @@
     "synthetic_shift_px": 6
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "traffic-flow-estimation"
   },
   "error": null
